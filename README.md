@@ -24,7 +24,7 @@ It utilizes:
 - Interface a **keypad** with the LPC2148 microcontroller to input text characters in **Proteus Software**
 - Display the **input text** and **corresponding Morse code** on an LCD 📺
 - Develop a **software algorithm** to convert text characters into Morse code accurately 🔣➡️🔊
-- Generate Morse code signals through **visual (LED)** or **audio (buzzer)** outputs with correct timing for dots, dashes, and spaces 🔴🔔
+- Generate Morse code signals through **visual (LED)** outputs with correct timing for dots, dashes, and spaces 🔴🔔
 - Implement **I2C protocol** to facilitate communication between the microcontroller and LCD or other I2C-enabled peripherals 🔗
 - Utilize **Keil uVision 4** for developing, debugging, and testing the microcontroller firmware 💻🐞
 
@@ -50,10 +50,6 @@ It utilizes:
 
 ---
 
-## 📌 Notes
-
-- Timing for Morse code (dot: 1 unit, dash: 3 units, etc.) must be implemented as per standard.
-- Ensure the LCD module supports I2C if using PCF8574A.
 
 ---
 
