@@ -60,6 +60,50 @@ It utilizes:
 
 ---
 
+
+---
+
+## 💻 Code
+
+The project code is written in **C** and utilizes the **Keil uVision 4 IDE**. It includes modular functions for:
+
+- **Keypad reading**
+- **LCD initialization and control**
+- **I2C communication**
+- **Morse code conversion**
+- **Signal output** via LED or buzzer
+
+The main program integrates all these modules to create a complete Morse code generator system.
+
+📂 You can find the complete code in the [`Code/`](Code/) directory.
+
+---
+
+## 🌐 Applications
+
+- **Communication**: Useful for basic messaging, especially in **emergency situations** or areas with limited infrastructure. 📡  
+- **Education**: Acts as a tool to **learn Morse code** and understand its **historical significance** in communications. 🏫  
+- **Signaling**: Suitable for **visual or audio signaling** in settings like **lighthouses, ships, or military** operations. 🚢⚓  
+
+---
+
+## 🎉 Result
+
+The Morse Code Generator project **successfully converts text input into Morse code signals** using the **LPC2148 microcontroller**, **keypad**, **LCD**, and **LED/buzzer**.  
+It accurately displays both the **input text** and its **Morse code equivalent** on the LCD and generates the correct signal output.
+
+---
+
+## 🏁 Conclusion
+
+This project demonstrates how various **hardware components** and **software algorithms** can be integrated to develop a **functional embedded system**.  
+It showcases:
+- The capabilities of the **LPC2148 microcontroller**
+- The utility of **Proteus** for circuit design and simulation
+- The effectiveness of **Keil uVision 4** for firmware development and real-time testing  
+🤖🔬
+
+
 ## 📁 Folder Structure Suggestion
 
 ```bash
