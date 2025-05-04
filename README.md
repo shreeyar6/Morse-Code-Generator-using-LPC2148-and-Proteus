@@ -46,7 +46,6 @@ It utilizes:
 
 - **Keil uVision 4** – IDE for firmware development  
 - **Proteus Design Suite** – Circuit simulation  
-- **Flash Magic / USB Bootloader** – For flashing code to LPC2148  
 
 ---
 
@@ -74,8 +73,6 @@ The project code is written in **C** and utilizes the **Keil uVision 4 IDE**. It
 - **Signal output** via LED or buzzer
 
 The main program integrates all these modules to create a complete Morse code generator system.
-
-📂 You can find the complete code in the [`Code/`](Code/) directory.
 
 ---
 
